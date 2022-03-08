@@ -85,8 +85,7 @@ dependencies = [
 [[package]]
 name = "chacha20poly1305"
 version = "0.9.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3b84ed6d1d5f7aa9bdde921a5090e0ca4d934d250ea3b402a5fab3a994e28a2a"
+source = "git+https://github.com/webb-tools/AEADs#0e926fa1d4776853ac3f5f84b42ea0f23fdc8421"
 dependencies = [
  "aead",
  "chacha20",
@@ -687,8 +686,7 @@ dependencies = [
 [[package]]
 name = "xsalsa20poly1305"
 version = "0.8.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e68bcb965d6c650091450b95cea12f07dcd299a01c15e2f9433b0813ea3c0886"
+source = "git+https://github.com/webb-tools/AEADs#0e926fa1d4776853ac3f5f84b42ea0f23fdc8421"
 dependencies = [
  "aead",
  "poly1305",
